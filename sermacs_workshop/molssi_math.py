@@ -2,33 +2,29 @@
 molssi_math.py
 Sample repository for MolSSI Workshop at SERMACS
 
-Handles the primary functions
+Misc. math functions
 """
 
-
-def canvas(with_attribution=True):
+def mean(num_list):
     """
-    Placeholder function to show example docstring (NumPy format)
-
-    Replace this function and doc string for your own project
+    Computes the mean of a list
 
     Parameters
-    ----------
-    with_attribution : bool, Optional, default: True
-        Set whether or not to display who the quote is from
+    ----------------
+    num_list: list
+        List to calculate mean of
 
     Returns
-    -------
-    quote : str
-        Compiled string including quote and optional attribution
+    ----------------
+    mean: float
+        Mean of list of numbers
     """
+    #sum = 0.0
+    #for num in num_list:
+    #    sum += num
 
-    quote = "The code is but a canvas to our imagination."
-    if with_attribution:
-        quote += "\n\t- Adapted from Henry David Thoreau"
-    return quote
+    #mean = sum/len(num_list)
+    #return mean
 
-
-if __name__ == "__main__":
-    # Do something if this file is invoked on its own
-    print(canvas())
+    mean = sum(num_list)/len(num_list)
+    return mean
