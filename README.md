@@ -7,6 +7,8 @@ sermacs_workshop
 
 Sample repository for MolSSI Workshop at SERMACS
 
+This is the readme.
+
 ### Copyright
 
 Copyright (c) 2018, Jared Weidman
